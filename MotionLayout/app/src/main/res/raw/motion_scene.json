@@ -1,0 +1,392 @@
+{
+  "ConstraintSets": {
+    "start": {
+      "headerImage": {
+        "width": "spread",
+        "height": "spread",
+        "top": [
+          "parent",
+          "top",
+          0
+        ],
+        "bottom": [
+          "parent",
+          "bottom",
+          0
+        ],
+        "start": [
+          "parent",
+          "start",
+          0
+        ],
+        "end": [
+          "parent",
+          "end",
+          0
+        ],
+        "translationY": 0,
+        "alpha": 1
+      },
+      "title_price": {
+        "width": "spread",
+        "height": "wrap",
+        "start": [
+          "parent",
+          "start"
+        ],
+        "end": [
+          "parent",
+          "end"
+        ],
+        "top": [
+          "parent",
+          "top",
+          550
+        ],     "translationY": 0,
+        "alpha": 1
+      },
+      "title": {
+        "width": "spread",
+        "height": "wrap",
+        "start": [
+          "parent",
+          "start"
+        ],
+        "end": [
+          "parent",
+          "end"
+        ],
+        "top": [
+          "parent",
+          "top",
+          650
+        ]
+      },
+      "titleDivider": {
+        "width": "spread",
+        "height": "wrap",
+        "start": [
+          "parent",
+          "start"
+        ],
+        "end": [
+          "parent",
+          "end"
+        ],
+        "top": [
+          "title",
+          "bottom"
+        ]
+      },
+      "subTitle": {
+        "width": "spread",
+        "height": "wrap",
+        "start": [
+          "parent",
+          "start"
+        ],
+        "end": [
+          "parent",
+          "end"
+        ],
+        "top": [
+          "titleDivider",
+          "bottom"
+        ]
+      },
+      "subTitleDivider": {
+        "width": "spread",
+        "height": "wrap",
+        "start": [
+          "parent",
+          "start"
+        ],
+        "end": [
+          "parent",
+          "end"
+        ],
+        "top": [
+          "subTitle",
+          "bottom"
+        ]
+      },
+      "contentBg": {
+        "width": "spread",
+        "height": "spread",
+        "start": [
+          "parent",
+          "start",
+          16
+        ],
+        "end": [
+          "parent",
+          "end",
+          16
+        ],
+        "top": [
+          "parent",
+          "top",
+          650
+        ],
+        "bottom": [
+          "parent",
+          "bottom"
+        ]
+      },
+      "date": {
+        "width": "spread",
+        "height": "wrap",
+        "start": [
+          "parent",
+          "start"
+        ],
+        "end": [
+          "parent",
+          "end"
+        ],
+        "top": [
+          "subTitleDivider",
+          "bottom"
+        ]
+      },
+      "actions": {
+        "width": "spread",
+        "height": 50,
+        "start": [
+          "parent",
+          "start",
+          16
+        ],
+        "end": [
+          "parent",
+          "end",
+          16
+        ],
+        "top": [
+          "date",
+          "bottom"
+        ]
+      },
+      "text": {
+        "width": "spread",
+        "height": "spread",
+        "start": [
+          "parent",
+          "start",
+          16
+        ],
+        "end": [
+          "parent",
+          "end",
+          16
+        ],
+        "top": [
+          "actions",
+          "bottom",
+          16
+        ],
+        "bottom": [
+          "parent",
+          "bottom"
+        ]
+      }
+    },
+    "end": {
+      "headerImage": {
+        "width": "spread",
+        "height": 750,
+        "top": [
+          "parent",
+          "top",
+          0
+        ],
+        "start": [
+          "parent",
+          "start",
+          0
+        ],
+        "end": [
+          "parent",
+          "end",
+          0
+        ],
+        "translationY": -250,
+        "alpha": 0.3
+      },
+      "contentBg": {
+        "width": "spread",
+        "height": "spread",
+        "start": [
+          "parent",
+          "start"
+        ],
+        "end": [
+          "parent",
+          "end"
+        ],
+        "top": [
+          "parent",
+          "top"
+        ],
+        "bottom": [
+          "parent",
+          "bottom"
+        ]
+      },
+      "title": {
+        "width": "spread",
+        "height": "wrap",
+        "start": [
+          "parent",
+          "start"
+        ],
+        "end": [
+          "parent",
+          "end"
+        ],
+        "top": [
+          "parent",
+          "top",
+          6
+        ]
+      },
+      "title_price": {
+        "width": "spread",
+        "height": 750,
+        "top": [
+          "parent",
+          "top",
+          0
+        ],
+        "start": [
+          "parent",
+          "start",
+          0
+        ],
+        "end": [
+          "parent",
+          "end",
+          0
+        ],
+        "translationY": -250,
+        "alpha": 0.3
+      },
+      "titleDivider": {
+        "width": "spread",
+        "height": "wrap",
+        "start": [
+          "parent",
+          "start",
+          34
+        ],
+        "end": [
+          "parent",
+          "end",
+          34
+        ],
+        "top": [
+          "title",
+          "bottom"
+        ]
+      },
+      "subTitle": {
+        "width": "spread",
+        "height": "wrap",
+        "start": [
+          "parent",
+          "start"
+        ],
+        "end": [
+          "parent",
+          "end"
+        ],
+        "top": [
+          "titleDivider",
+          "bottom"
+        ]
+      },
+      "subTitleDivider": {
+        "visibility": "gone",
+        "width": "spread",
+        "height": "wrap",
+        "start": [
+          "parent",
+          "start"
+        ],
+        "end": [
+          "parent",
+          "end"
+        ],
+        "top": [
+          "subTitle",
+          "bottom"
+        ]
+      },
+      "date": {
+        "visibility": "gone",
+        "width": "spread",
+        "height": "wrap",
+        "start": [
+          "parent",
+          "start"
+        ],
+        "end": [
+          "parent",
+          "end"
+        ],
+        "top": [
+          "subTitleDivider",
+          "bottom"
+        ]
+      },
+      "actions": {
+        "width": "spread",
+        "height": 70,
+        "start": [
+          "parent",
+          "start"
+        ],
+        "end": [
+          "parent",
+          "end"
+        ],
+        "top": [
+          "subTitle",
+          "bottom"
+        ]
+      },
+      "text": {
+        "width": "spread",
+        "height": "spread",
+        "start": [
+          "parent",
+          "start"
+        ],
+        "end": [
+          "parent",
+          "end"
+        ],
+        "top": [
+          "actions",
+          "bottom",
+          16
+        ],
+        "bottom": [
+          "parent",
+          "bottom"
+        ]
+      }
+    }
+  },
+  "Transitions": {
+    "default": {
+      "from": "start",
+      "to": "end",
+      "onSwipe": {
+        "anchor": "contentBg",
+        "direction": "up",
+        "side": "top"
+      }
+    }
+  }
+}
